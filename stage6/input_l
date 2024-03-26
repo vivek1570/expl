@@ -1,0 +1,29 @@
+type
+  List
+  {
+    int a;
+    int b;
+    List next;
+  }
+endtype
+decl
+  List head;
+enddecl
+
+int main()
+{
+  decl
+    int a,b,c;
+    node res;
+  enddecl
+
+  begin
+    c = initialize();
+    head=null;
+    if(head==null) then
+    head=alloc();
+    endif;
+    free(head);
+    return 0;
+  end
+}

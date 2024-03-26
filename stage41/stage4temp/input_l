@@ -1,0 +1,16 @@
+decl
+    int n;
+    int s;
+enddecl;
+
+begin
+    read(n);
+    read(s);
+    if(n>s) then
+        write(n);
+    else 
+        write(s);
+    endif;
+end;
+
+

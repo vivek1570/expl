@@ -1,0 +1,11 @@
+begin
+    read(num);
+    read(sum);
+    if(num>sum) then
+        write(num);
+    else 
+        write(sum);
+    endif;
+end;
+
+

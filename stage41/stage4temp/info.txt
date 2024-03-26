@@ -1,0 +1,8 @@
+static allocation:
+we are fixing the address of each variable at compile time (static allocation).
+
+To this end, while parsing declarations, the compiler transfers the information about variables in a 
+compile time data structure called the symbol table. 
+
+For a simple implementation, a linear linked list suffices. In modern compilers, hash tables are maintained
+to make search efficient.

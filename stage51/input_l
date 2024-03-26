@@ -1,0 +1,27 @@
+decl
+int a,b,x,p,q;
+int compute(int p,int q);
+enddecl
+
+int compute(int p,int q)
+{
+    decl
+    int t;
+    enddecl
+    begin
+    t=p+q;
+    t=t-2;
+    end
+}
+
+int main()
+{
+    decl
+    int t;
+    str g;
+    enddecl
+    begin
+    t=compute(a,b);
+    write(t);
+    end
+}
