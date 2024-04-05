@@ -1,0 +1,17 @@
+person{
+    decl
+    int a;
+    place obj;
+    int work(int c,int d);
+
+    enddecl
+    int work(int c,int d)
+    {
+        decl
+        enddecl
+        begin
+        self.a=self.obj.pos(23);
+        return c+d;
+        end
+    }
+}
